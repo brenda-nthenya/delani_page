@@ -1,0 +1,38 @@
+.container-fluid {
+    position: relative;
+    text-align: center;
+    font-family: 'Source Sans Pro', serif;
+    font-size: 22px;
+}
+
+.image {
+    height: 100%;
+    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.no-padding,
+.work-heading {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#main_Title {
+    /* margin-top: 50%; */
+    padding-top: 50px
+}
+
+#main_logo {
+    margin-top: 14%;
+    padding-bottom: 110px;
+
+}
+
+#mouse_click {
+    margin-top: 250px;
+}
+
