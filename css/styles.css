@@ -139,6 +139,17 @@ form#contact-form ::placeholder {
     margin-top: 50px;
 }
 
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #mlogo {
