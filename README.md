@@ -33,4 +33,17 @@ Toggle through the What We Do section.
 
 * Now feel free to hack around the project.
 
+## Technologies Used
+The application is developed using 
+* [JQUERY](https://code.jquery.com)
+* [JAVASCRIPT](https://www.w3schools.com/js/default.asp),
+* [HTML5](https://www.w3schools.com/html/html5_intro.asp) and
+* [CSS](https://www.w3schools.com/css/default.asp). 
+
+You can find more about this technologies by clicking on the links.
+
+## KNOWN BUGS
+There might be a slight lag in the portfolio section as you hover over the images.
+
+
 
