@@ -5,34 +5,34 @@ $(document).ready(function () {
     //toggle what to do.
     $('#design').click(function () {
         $('#design-content').show(function () {
-            $('#design').hide('fast');
+            $('#design').hide('slow');
         });
     });
     $('#design-content').click(function () {
         $('#design').show(function () {
-            $('#design-content').hide('fast');
+            $('#design-content').hide('slow');
         });
     });
 
     $('#dev').click(function () {
         $('#dev-content').show(function () {
-            $('#dev').hide('fast');
+            $('#dev').hide('slow');
         });
     });
     $('#dev-content').click(function () {
         $('#dev').show(function () {
-            $('#dev-content').hide('fast');
+            $('#dev-content').hide('slow');
         });
     });
 
     $('#product').click(function () {
         $('#product-content').show(function () {
-            $('#product').hide('fast');
+            $('#product').hide('slow');
         });
     });
     $('#product-content').click(function () {
         $('#product').show(function () {
-            $('#product-content').hide('fast');
+            $('#product-content').hide('slow');
         });
     });
 
