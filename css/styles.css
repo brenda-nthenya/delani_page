@@ -21,12 +21,12 @@
     padding-right: 0;
 }
 
-#main_Title {
+#mTitle {
     /* margin-top: 50%; */
     padding-top: 50px
 }
 
-#main_logo {
+#mlogo {
     margin-top: 14%;
     padding-bottom: 110px;
 
@@ -35,7 +35,6 @@
 #mouse_click {
     margin-top: 250px;
 }
-
 
 #about_us,
 #what_we_do {
@@ -53,7 +52,7 @@
 
 }
 
-#main_services,
+#mservices,
 #we_do {
     margin-top: 0px;
 }
@@ -71,7 +70,7 @@
     display: none;
 }
 
-#main_contact {
+#mcontact {
     height: 60%;
     background-image: url(../img/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
@@ -82,7 +81,7 @@
     margin-top: 70px;
 }
 
-.main_Form {
+.mForm {
     padding-top: 70px;
 }
 
