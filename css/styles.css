@@ -7,7 +7,7 @@
 
 .image {
     height: 100%;
-    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-image: url(../img/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -36,3 +36,139 @@
     margin-top: 250px;
 }
 
+
+#about_us,
+#what_we_do {
+    margin-top: 60px;
+}
+
+#services {
+    height: 50%;
+    background-image: url(../img/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+
+}
+
+#main_services,
+#we_do {
+    margin-top: 0px;
+}
+
+#themessage {
+    padding-top:    80px;
+    padding-bottom:    50px;
+}
+
+.first-list {
+    padding-top: 20px;
+}
+
+.hidden-content {
+    display: none;
+}
+
+#main_contact {
+    height: 60%;
+    background-image: url(../img/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    margin-top: 70px;
+}
+
+.main_Form {
+    padding-top: 70px;
+}
+
+form#contact-form::-webkit-input-placeholder {
+    /* Edge */
+    color: white;
+}
+
+form#contact-form :-ms-input-placeholder {
+    /* Internet Explorer */
+    color: white;
+}
+
+form#contact-form ::placeholder {
+    color: white;
+}
+
+.isInput,
+.isInput:focus {
+    background-color: transparent;
+    color: #fff
+}
+
+
+.portfolio {
+    max-width: 80%;
+
+}
+
+#social {
+    padding-top: 40px;
+}
+
+#social-padding img {
+    padding: 5px;
+}
+
+.work-heading {
+    display: none;
+    background-color: white;
+    opacity: 0.8;
+    z-index: 1;
+    font-size: 30px;
+    height: 100%;
+    width: 100%;
+    padding-top: 30%;
+    padding-right: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title {
+    margin-top: 50px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #mlogo {
+        margin-top: 30%;
+        padding-bottom: 110px;
+
+    }
+
+    #mouse_click {
+        margin-top: 50px;
+    }
+
+    #mTitle {
+        padding-top: 50px;
+        font-size: 30px;
+
+    }
+
+    #welcome {
+        font-size: 30px;
+    }
+
+    #message {
+        font-size: 14px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
