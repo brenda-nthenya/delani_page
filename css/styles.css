@@ -121,10 +121,13 @@ form#contact-form ::placeholder {
 
 .work-heading {
     display: none;
-    background-color: white;
+    background-color: black;
+    font-weight: bold;
+    text-align: left;
     opacity: 0.8;
+    color: white;
     z-index: 1;
-    font-size: 30px;
+    font-size: 20px;
     height: 100%;
     width: 100%;
     padding-top: 30%;
@@ -133,6 +136,8 @@ form#contact-form ::placeholder {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border:30px solid white;
+    padding:5px;
 }
 
 #title {
